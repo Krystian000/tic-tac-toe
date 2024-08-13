@@ -6,12 +6,11 @@
 - [Installation](#installation)
 - [Running the App](#running-the-app)
 - [Running Tests](#running-tests)
-- [Additional Notes](#additional-notes)
 
 ## Project Overview
 
-I chosen dark color because I like to use applications in dark mode on daily bases.
-I introduced animations to guide the user on what to do next if he gets lost.
+- I chosen dark color because I like to use applications in dark mode on daily bases.
+- I introduced animations to guide the user on what to do next if he gets lost.
 
 ## Installation
 
