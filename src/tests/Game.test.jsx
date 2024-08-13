@@ -2,12 +2,12 @@ import React from 'react';
 import { act } from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Game from '../components/Game';
+import App from '../App';
 
-describe('Game', () => {
+describe('App', () => {
     test('renders the game header', () => {
         act(() => {
-            render(<Game />);
+            render(<App />);
         });
         const headerElement = screen.getByText(/tic-tac-toe/i);
         expect(headerElement).toBeInTheDocument();
@@ -15,7 +15,7 @@ describe('Game', () => {
 
     test('renders the start game button', () => {
         act(() => {
-            render(<Game />);
+            render(<App />);
         });
         const startButton = screen.getByText('Start Game');
         expect(startButton).toBeInTheDocument();
@@ -23,7 +23,7 @@ describe('Game', () => {
 
     test('renders the game borad', () => {
         act(() => {
-            render(<Game />);
+            render(<App />);
         });
         const startButton = screen.getByText('Start Game');
         act(() => {
@@ -35,7 +35,7 @@ describe('Game', () => {
 
     test('renders the game borad cells', () => {
         act(() => {
-            render(<Game />);
+            render(<App />);
         });
         const startButton = screen.getByText('Start Game');
         act(() => {
@@ -47,7 +47,7 @@ describe('Game', () => {
 
     test('renders new game button after winning', () => {
         act(() => {
-            render(<Game />);
+            render(<App />);
         });
         const startButton = screen.getByText('Start Game');
         act(() => {
