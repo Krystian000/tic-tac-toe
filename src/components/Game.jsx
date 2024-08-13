@@ -155,7 +155,9 @@ const Game = () => {
       // Make animation on start game button
       document.getElementById('startGame').style.animation = 'shake 0.5s';
       setTimeout(() => {
+        if (document.getElementById('startGame')) {
         document.getElementById('startGame').style.animation = '';
+        }
       }, 500);
       return;
     }
@@ -164,7 +166,9 @@ const Game = () => {
       // Make animation on start game button
       document.getElementById('newGame').style.animation = 'shake 0.5s';
       setTimeout(() => {
+        if (document.getElementById('newGame')) {
         document.getElementById('newGame').style.animation = '';
+        }
       }, 500);
       return;
     }
