@@ -57,7 +57,3 @@ To ensure your code is working correctly, run the tests with:
     ```
     
    This will run all the tests and display the results in the terminal.
-
-## License
-
-This project is licensed under the [MIT License](link-to-license-file). See the [LICENSE](link-to-license-file) file for details.
