@@ -10,7 +10,8 @@
 
 ## Project Overview
 
-I created simple darkmode Tic-Tac-Toe app
+I chosen dark color because I like to use applications in dark mode on daily bases.
+I introduced animations to guide the user on what to do next if he gets lost.
 
 ## Installation
 
